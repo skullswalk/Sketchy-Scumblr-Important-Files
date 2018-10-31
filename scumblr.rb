@@ -31,21 +31,21 @@ Scumblr::Application.configure do
   #config.sketchy_access_token = ENV["sketchy_access_token"]
 
   # Google
-  config.google_application_name = "scumblr-google"
+  config.google_application_name = "insert name"
   config.google_application_version = "1.0"
-  config.google_developer_key = "AIzaSyCW4zGhWuCWtVbz7OHrffO070SNR6hrto8"
-  config.google_cx = "006728030549170639545:lwmqpz5ucea"
+  config.google_developer_key = "insert dev key"
+  config.google_cx = "insert custom search key"
 
   # Onion Websitex Search
-  config.google_onion_application_name = "scumblr-onion"
+  config.google_onion_application_name = "insert name"
   config.google_onion_application_version = "1.0"
-  config.google_onion_developer_key = "AIzaSyDlvItRRLGDSXnI3qB8kYa5YBc3mE0gqf8"
-  config.google_onion_cx = "006728030549170639545:62zuqssqqqk"
+  config.google_onion_developer_key = "insert dev key"
+  config.google_onion_cx = "insert custom search key"
 
   # YouTube
-  config.youtube_application_name = "youtube"
+  config.youtube_application_name = "insert name"
   config.youtube_application_version = "v3"
-  config.youtube_developer_key = "AIzaSyC4Fiq6S1FYm2ZnW7AUTx2jFV5uOgWEExw"
+  config.youtube_developer_key = "insert dev key"
 
   # eBay
   #config.ebay_access_key = ENV["ebay_access_key"]
@@ -55,10 +55,10 @@ Scumblr::Application.configure do
   config.facebook_app_secret = ""
 
   # Twitter
-  config.twitter_consumer_key = "154LURwGs0uaB7GeViS5KRnQk"
-  config.twitter_consumer_secret = "bnf2VKIOtakMtG1ipAIz1vCnbqYQ5RleXEKehhYpyum1LWWOKs"
-  config.twitter_access_token = "1002241478163300352-fcCTRBM0A4M3HtFbpMDhwSoPLljEjl"
-  config.twitter_access_token_secret = "GbUX6JS6r6m1OS6vVmpxS1zR57q8yREkdOFrU26CnW6DP"
+  config.twitter_consumer_key = "insert consumer key"
+  config.twitter_consumer_secret = "insert consumer secret"
+  config.twitter_access_token = "insert access token"
+  config.twitter_access_token_secret = "insert access token secret"
 
   # Github
   #config.github_oauth_token = ENV["github_oauth_token"]

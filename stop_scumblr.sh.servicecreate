@@ -1,0 +1,9 @@
+#!/bin/bash
+# Grabs and kill a process from the pidlist that has the word 'sidekiq 4.2.10 Scumblr'
+ps aux | grep 'sidekiq 4.2.10 Scumblr' | awk '{print $2}' | xargs kill -9
+# Grabs and kill a process from the pidlist that has the word 'rails master -b'
+ps aux | grep 'rails master -b' | awk '{print $2}' | xargs kill -9
+# Grabs and kill a process from the pidlist that has the word 'rails worker'
+ps aux | grep 'rails worker' | awk '{print $2}' | xargs kill -9
+# Grabs and kill a process from the pidlist that has the word 'redis-server'
+ps aux | grep 'redis-server' | awk '{print $2}' | xargs kill -9

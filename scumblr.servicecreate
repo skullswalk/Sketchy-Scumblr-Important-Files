@@ -1,0 +1,19 @@
+#!/bin/bash
+# Scumblr Control /etc/init.d/ script
+#
+# Copy this file into /etc/init.d/ then chmod +x (add execution options) it and 'update-rc.d scumblr defaults'
+#
+
+case $1 in
+        start)
+                sudo -u zenopz /bin/bash /home/zenopz/Scumblr/controller/start_scumblr.sh
+        ;;
+        stop)
+                sudo -u zenopz /bin/bash /home/zenopz/Scumblr/controller/stop_scumblr.sh
+        ;;
+        restart)
+                sudo -u zenopz /bin/bash /home/zenopz/Scumblr/controller/stop_scumblr.sh
+                sudo -u zenopz /bin/bash /home/zenopz/Scumblr/controller/start_scumblr.sh
+        ;;
+esac
+exit 0
